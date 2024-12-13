@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 # name it as your package name
-name = "quanttide-example-of-python-package"
+name = "quanttide-hr-python"
 # semetric versions
 version = "0.1.0-alpha.1"
 # describe the package within one sentence
@@ -28,5 +28,5 @@ content-type = "text/markdown"
 
 [tool.pdm.build]
 includes = [
-    "python_package",
+    "quanttide_hr",
 ]
